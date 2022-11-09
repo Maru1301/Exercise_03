@@ -11,9 +11,8 @@ namespace Exec3_Delegate
 		static void Main(string[] args)
 		{
 			List<int> source = new List<int>{1,2,3,4,5,6,7,8,9,10};
-			Func<int, bool> func = x => x % 2 == 0;
 			
-			List<int> result = GetEvenItems(source, func);
+			List<int> result = GetEvenItems(source, x => x % 2 == 0);
 
 			foreach(int item in result)
 			{
