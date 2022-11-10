@@ -27,7 +27,7 @@ namespace Exec3_MaintainUsers
 							values(@Name, @Account, @Password, @DateOfBirth, @Height)";
 
 			var parameters = new SqlParameterBuilder()
-									.AddNVarChar("@Name", 50, "Maru")
+									.AddNVarChar("Name", 50, "Maru")
 									.AddNVarChar("Account", 50, "12345678")
 									.AddNVarChar("Password", 50, "87654321")
 									.AddDateTime("DateOfBirth", new DateTime(1898, 8, 8))
