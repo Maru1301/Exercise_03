@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegate", "Delegate", "{26
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exec3_Delegate", "Exec3_Delegate\Exec3_Delegate.csproj", "{62996348-A628-4137-B5AF-588D37264DE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exec3_MaintainUsers", "Exec3_MaintainUsers\Exec3_MaintainUsers.csproj", "{A3366DFE-899D-49A9-ADD4-0C3853C7C01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISpan2022_Sql_Utility", "ISpan2022_Sql_Utility\ISpan2022_Sql_Utility.csproj", "{2C76B3E0-4B63-40B1-8F17-5ECD1A63A2CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{62996348-A628-4137-B5AF-588D37264DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62996348-A628-4137-B5AF-588D37264DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62996348-A628-4137-B5AF-588D37264DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3366DFE-899D-49A9-ADD4-0C3853C7C01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3366DFE-899D-49A9-ADD4-0C3853C7C01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3366DFE-899D-49A9-ADD4-0C3853C7C01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3366DFE-899D-49A9-ADD4-0C3853C7C01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C76B3E0-4B63-40B1-8F17-5ECD1A63A2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C76B3E0-4B63-40B1-8F17-5ECD1A63A2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C76B3E0-4B63-40B1-8F17-5ECD1A63A2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C76B3E0-4B63-40B1-8F17-5ECD1A63A2CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
