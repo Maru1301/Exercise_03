@@ -49,9 +49,10 @@ namespace Exec3_MaintainUsers
 		{
 			SqlHelper helper = new SqlHelper("default");
 
-			string sql = @"update users set Name = @Name, Account = @Account, Password = @Password, DateOfBirth = @DateOfBirth, Height = @Height where Id > 0";
+			string sql = @"update users set Name = @Name, Account = @Account, Password = @Password, DateOfBirth = @DateOfBirth, Height = @Height where Id > @Id";
 
 			var parameters = new SqlParameterBuilder()
+									.AddInt("Id", 0)
 									.AddNVarChar("@Name", 50, "Haru")
 									.AddNVarChar("Account", 50, "012345678")
 									.AddNVarChar("Password", 50, "876543210")
